@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>HelpNest – Technology help, made simple</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+
+<div class="shell">
+
+  <header class="top">
+    <div class="inner-wrap top-wrap">
+      <div class="logo" id="logo"></div>
+      <div class="brand"><b>HelpNest</b><span>Technology help, made simple.</span></div>
+      <div class="pill">Technicians online</div><button class="bell" id="bell" aria-label="Notifications"></button>
+      <div class="notes hide" id="notes"></div>
+    </div>
+  </header>
+
+  <div class="call hide" id="call" role="dialog" aria-label="Video call"><div class="rem"><div class="av">P</div><b>Priya · HelpNest technician</b><span id="cst">Connecting…</span></div><video id="me" autoplay muted playsinline></video><div class="ctl"><button id="mic">Mute</button><button id="cmr">Camera off</button><button id="end" class="endb">End call</button></div></div>
+
+  <div class="main-wrap">
+    <main id="app"></main>
+  </div>
+
+  <!-- Floating AI Chatbot Widget -->
+  <button id="ai-fab" class="ai-fab" aria-label="Open AI Assistant">
+    <svg viewBox="0 0 24 24"><path d="M4 12a8 7 0 1 1 3.5 5.7L4 19l1.2-3.4A7 7 0 0 1 4 12z"/></svg>
+  </button>
+
+  <div id="ai-chat-widget" class="ai-chat-widget hide">
+    <div class="ai-chat-header">
+      <div class="ai-chat-title">
+        <svg viewBox="0 0 24 24"><path d="M4 12a8 7 0 1 1 3.5 5.7L4 19l1.2-3.4A7 7 0 0 1 4 12z"/></svg>
+        <div>
+          <b>HelpNest AI</b>
+          <span>Online</span>
+        </div>
+      </div>
+      <button id="ai-close" aria-label="Close chat">×</button>
+    </div>
+    <div class="ai-chat-body" id="ai-chat-body" aria-live="polite">
+      <div class="ai-msg tech">Hi there! I'm HelpNest AI. What technical issue can I help you fix today?</div>
+    </div>
+    <div class="ai-chat-input">
+      <input type="text" id="ai-input" placeholder="Type your issue..." autocomplete="off">
+      <button id="ai-send" aria-label="Send">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<script src="js/app.js" defer></script>
+
+</body>
+
+</html>

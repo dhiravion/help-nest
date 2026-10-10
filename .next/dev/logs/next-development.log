@@ -1,0 +1,6 @@
+{"timestamp":"00:00:07.485","source":"Server","level":"LOG","message":"- Cache Components enabled"}
+{"timestamp":"00:00:07.485","source":"Server","level":"LOG","message":"- Partial Prefetching enabled"}
+{"timestamp":"00:00:07.486","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:57.087","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:03:47.954","source":"Server","level":"LOG","message":"✓ Compiled in 116ms"}
+{"timestamp":"00:08:08.539","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}

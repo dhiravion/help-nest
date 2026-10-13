@@ -1,6 +1,6 @@
 # HelpNest
 
-HelpNest is a browser-based technology-help interface prototype.
+HelpNest is a browser-based technology-help interface prototype.for it support people for non-techie peoples
 
 ## Run locally
 1. Open this folder in VS Code.
